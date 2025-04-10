@@ -6,11 +6,11 @@
 /*   By: alucas-e <alucas-e@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 15:28:30 by alucas-e          #+#    #+#             */
-/*   Updated: 2025/04/10 15:50:48 by alucas-e         ###   ########.fr       */
+/*   Updated: 2025/04/10 16:47:50 by alucas-e         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/philo.h"
+#include "../includes/philo.h"
 
 void	*one_philo(void *arg)
 {

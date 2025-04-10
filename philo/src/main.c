@@ -6,11 +6,11 @@
 /*   By: alucas-e <alucas-e@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/08 15:13:54 by alucas-e          #+#    #+#             */
-/*   Updated: 2025/04/08 16:53:08 by alucas-e         ###   ########.fr       */
+/*   Updated: 2025/04/10 16:47:42 by alucas-e         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/philo.h"
+#include "../includes/philo.h"
 
 void	parse_args(int argc, char **argv, t_table *table)
 {

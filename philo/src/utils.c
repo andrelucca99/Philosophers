@@ -6,11 +6,11 @@
 /*   By: alucas-e <alucas-e@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 15:08:57 by alucas-e          #+#    #+#             */
-/*   Updated: 2025/04/10 15:28:07 by alucas-e         ###   ########.fr       */
+/*   Updated: 2025/04/10 16:48:02 by alucas-e         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/philo.h"
+#include "../includes/philo.h"
 
 long	ft_atol(char *str)
 {

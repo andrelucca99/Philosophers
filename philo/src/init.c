@@ -6,11 +6,11 @@
 /*   By: alucas-e <alucas-e@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/08 16:53:46 by alucas-e          #+#    #+#             */
-/*   Updated: 2025/04/08 17:05:43 by alucas-e         ###   ########.fr       */
+/*   Updated: 2025/04/10 16:47:39 by alucas-e         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/philo.h"
+#include "../includes/philo.h"
 
 void	init_philos(t_table *table)
 {
