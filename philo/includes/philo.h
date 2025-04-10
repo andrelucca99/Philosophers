@@ -6,7 +6,7 @@
 /*   By: alucas-e <alucas-e@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/03 14:02:45 by alucas-e          #+#    #+#             */
-/*   Updated: 2025/04/08 16:57:55 by alucas-e         ###   ########.fr       */
+/*   Updated: 2025/04/10 17:58:27 by alucas-e         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,10 +66,10 @@ typedef struct s_table
 	t_philo			*philos;
 }	t_table;
 
-void	parse_args(int argc, char **argv, t_table *table);
-int		validate_args(int argc, t_table *table);
+void			parse_args(int argc, char **argv, t_table *table);
+int				validate_args(int argc, t_table *table);
 
-void	init_table(t_table *table);
+void			init_table(t_table *table);
 
 unsigned long	get_time(void);
 long			ft_atol(char *str);
@@ -78,7 +78,7 @@ void			print_message(t_philo *philo, char *msg);
 int				ft_strcmp(const char *s1, const char *s2);
 
 void			safe_mutex(t_table *table, pthread_mutex_t *mutex, t_mode mode);
-void			handle_mutex_errors(int	status, t_mode mode);
+void			handle_mutex_errors(int status, t_mode mode);
 
 void			create_threads(t_table *table);
 void			join_threads(t_table *table);
